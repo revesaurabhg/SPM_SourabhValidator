@@ -1,0 +1,11 @@
+framework module SourabhValidator {
+  umbrella header "SourabhValidator.h"
+
+  export *
+  module * { export * }
+}
+
+module SourabhValidator.Swift {
+  header "SourabhValidator-Swift.h"
+  requires objc
+}
